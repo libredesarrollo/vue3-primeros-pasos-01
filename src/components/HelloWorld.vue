@@ -4,8 +4,6 @@
 
 
    <p></p> {{ miPrimeraPropiedad }}
-   <p></p> {{ miPrimeraPropiedad }}
-   <p></p> {{ miPrimeraPropiedad }}
     
   </div>
 </template>
