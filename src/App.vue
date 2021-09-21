@@ -1,18 +1,25 @@
 <template>
- 
-  <MiPrimerComponente />
+ <Zoom/>
   
 </template>
 
 <script>
-import MiPrimerComponente from '@/components/MiPrimerComponente'
+import Zoom from './components/Zoom'
+//import MiPrimerComponente from '@/components/MiPrimerComponente'
+
+
 
 export default {
   name: 'App',
   components: {
-
-    MiPrimerComponente
-  }
+    Zoom
+    //MiPrimerComponente
+  },
+  data() {
+    return {
+      miTitulo: "Titulo mio"
+    }
+  },
 }
 </script>
 

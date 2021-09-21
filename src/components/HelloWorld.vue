@@ -1,9 +1,6 @@
 <template>
   <div class="hello">
     <h1>VIVA VUE!! {{ msg }}</h1>
-
-
-   <p></p> {{ miPrimeraPropiedad }}
     
   </div>
 </template>
@@ -12,7 +9,7 @@
 export default {
   name: 'Hola Mundo',
   props: {
-    msg: String
+    msg: String,
   },
   data() {
     return {
